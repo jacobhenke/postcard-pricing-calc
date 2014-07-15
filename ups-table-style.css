@@ -1,0 +1,35 @@
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 500px;
+}
+table th, table td {
+	padding: 3px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+table td.nobleed {
+	background-color: white;
+}
+table td.bleed {
+	background-color: rgb(220, 233, 255);
+}
+table th {
+	background-color: rgb(16, 80, 155);
+	color: white;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+}
+header h1 {
+	font-size: 2em;
+}
+
+div.box {
+	float: left;
+	margin: 9px;
+}
